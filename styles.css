@@ -1,0 +1,51 @@
+body{
+    height: 100vh;
+    margin: 0;
+}
+
+.flex-container{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.flex-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 3rem;
+}
+
+#one {
+    background-color: #f44336;
+}
+
+#two {
+    background-color: #FF9800;
+}
+
+#three {
+    background-color: #FFEB3B;
+}
+
+#four { 
+    background-color:#8BC34A;
+}
+
+#five {
+    background-color:  #2196F3;
+}
+
+#six {
+    background-color: #9C27B0;
+}
+
+@media screen and (min-width: 600px){
+    .flex-item{
+        width: 33.33%;
+    }
+}
